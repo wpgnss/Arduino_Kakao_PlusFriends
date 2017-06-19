@@ -1,7 +1,5 @@
 #include "kakao.h"
 
-char kakao_api_url[300];
-
 kakao::kakao(){
 //KAKAO PLUS FRIEND DEFAULT GPS
     strcpy(_curr_gps.lat, "37.3786173");
