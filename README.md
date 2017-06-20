@@ -14,7 +14,7 @@
 SKT의 LoRa + GPS 디바이스에서 주기적으로 GPS 데이터를 생성&전달 해준다.
 이 데이터는 SKT의 IoT 플랫폼인 ThingPlug에 저장되며, 이 데이터를 Subscription 기능을 사용해 아두이노 서버에서 수신하게 된다.
 
-ThingPlug Subscription에 대한 간단한 설명: http://1byte.tistory.com/25
+> ThingPlug Subscription에 대한 간단한 설명: http://1byte.tistory.com/25
 ![](https://github.com/wpgnss/Arduino_Kakao_PlusFriends/blob/master/img/03_subscription.PNG)
 
 
