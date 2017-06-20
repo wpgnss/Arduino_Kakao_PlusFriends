@@ -21,18 +21,23 @@ ThingPlug Subscription에 대한 간단한 설명: http://1byte.tistory.com/25
 ## 카카오톡 플러스 친구 개발하기
 카카오톡에서 위치정보를 확인하기 위해서 카카오톡의 '플러스친구'를 사용했다.
 
-카카오톡 플러스친구: https://center-pf.kakao.com
-카카오톡 플러스친구 API: https://github.com/plusfriend/auto_reply
+> 카카오톡 플러스친구: https://center-pf.kakao.com
+
+> 카카오톡 플러스친구 API: https://github.com/plusfriend/auto_reply
 
 아두이노에서 플러스 친구를 사용하기 위해서는 '자동응답' 설정을 'API형 자동응답'으로 설정해야 한다.
 
 그 후 아래 두가지에 대한 내용을 개발해야 한다.
 1. keyboard
 	keyboard는 사용자에게 제공할 입력 수단이다. 직접 text 입력을 받을 수도 있고, 정해진 버튼을 만들어 사용자가 선택하도록 할 수도 있다.
-    ex) GET url:port/keyboard HTTP/1.1
+
+>    ex) GET url:port/keyboard HTTP/1.1
+
 2. message
 	사용자가 keyboard를 통해 입력&선택하게 되면 아두이노 서버에 message 로 요청이 오게 된다.
-    ex) POST url:port/message HTTP/1.1
+
+>    ex) POST url:port/message HTTP/1.1
+
 
 위 두 기능을 구현하면 아래와 같이 카카오톡 플러스친구를 통해 아두이노 서버와 통신할 수 있다.
 ![](https://github.com/wpgnss/Arduino_Kakao_PlusFriends/blob/master/img/04_kakaopf_api.PNG)
