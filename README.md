@@ -7,6 +7,23 @@ https://github.com/wpgnss/Arduino_Kakao_PlusFriends
 이 어플리케이션은 SKT의 LoRa 디바이스로부터 약속된 포맷의 GPS 데이터를 수신해 KAKAOTALK의 플러스친구로 위치정보를 알려주는 어플리케이션이다.
 ![](https://github.com/wpgnss/Arduino_Kakao_PlusFriends/blob/master/img/01_intro.PNG?raw=true)
 
+## 서버 Parts
+서버에 사용된 Parts는 Arduino Mega + Ethernet Security Shield이다.
+Ethernet Security Shield는 이더넷 통신을 할 때, SSL/TLS라고 하는 암호화 방식을 사용할 수 있도록 개발된 실드이다.
+
+![](https://github.com/wpgnss/Arduino_Kakao_PlusFriends/blob/master/img/00_parts.png?raw=true)
+
+
+* Arduino mega
+	- https://store.arduino.cc/usa/arduino-mega-2560-rev3
+	
+* Ethernet Security Shield
+	- http://wizwiki.net/wiki/doku.php?id=products:securityshield:start
+
+
+
+
+
 ## 서버 생성하기
 아두이노 Web Server 예제를 기반으로 서버를 생성한다. 이 서버는 아래 그림과 같이 ThingPlug에서 Push 해주는 데이터 수신과 KakaoTalk에서 데이터를 요청하는 데이터 전송 기능을 담당하는 서버 역할을 한다.
 이 예제는 사설 IP로 구현되었기 때문에 공유기 설정에서 Port Forwading 설정까지 해주어야 한다. 아니면 공인 IP를 사용해야 한다.
