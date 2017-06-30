@@ -2,6 +2,11 @@
 
 https://github.com/wpgnss/Arduino_Kakao_PlusFriends
 
+예제
+![](https://github.com/wpgnss/Arduino_Kakao_PlusFriends/blob/master/img/banner.PNG?raw=true)
+[ 카카오톡 친구 추가 링크 ](http://pf.kakao.com/_NGgQd)
+
+
 # Arduino_Kakao_PlusFriends
 
 이 어플리케이션은 SKT의 LoRa 디바이스로부터 약속된 포맷의 GPS 데이터를 수신해 KAKAOTALK의 플러스친구로 위치정보를 알려주는 어플리케이션이다.
