@@ -19,8 +19,8 @@
 /*
  *  PLUS FRIENDS DEFINE
  */
-#define NAVER_CLIENT_ID "NXRxPcawhgfFiH4qAzNy"
-#define NAVER_REDIRECT_URL "http://222.98.173.207:3000"
+#define NAVER_CLIENT_ID "Client Id"
+#define NAVER_REDIRECT_URL "http://Server Url"
 #define URL_KAKAO_PF_PURL "https://openapi.naver.com/v1/map/staticmap.bin?clientId=%s&url=%s&crs=EPSG:4326&center=%s,%s&level=10&w=320&h=240&baselayer=default&markers=%s,%s"  // 126,37
 #define URL_KAKAO_PF_MURL "http://map.daum.net/link/map/우리아이,%s,%s" // 37,126
 #define URL_KAKAO_PF_RURL "http://map.daum.net/link/roadview/%s,%s"
