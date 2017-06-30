@@ -3,8 +3,9 @@
 https://github.com/wpgnss/Arduino_Kakao_PlusFriends
 
 예제
-![](https://github.com/wpgnss/Arduino_Kakao_PlusFriends/blob/master/img/banner.PNG?raw=true)
-[ 카카오톡 친구 추가 링크 ](http://pf.kakao.com/_NGgQd)
+![](https://github.com/wpgnss/Arduino_Kakao_PlusFriends/blob/master/img/banner.png?raw=true)
+
+[카카오톡 친구 추가 링크](http://pf.kakao.com/_NGgQd)
 
 
 # Arduino_Kakao_PlusFriends
